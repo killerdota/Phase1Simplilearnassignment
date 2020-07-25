@@ -1,0 +1,26 @@
+/* 1 - BASE FORM STYLES */
+
+body
+{
+    background: #141414;
+    margin:0;
+    font-family: arial;
+}
+
+form {
+    margin: 20px;
+    color :#eee;
+
+}
+
+form p {
+    font-size :20px;
+    letter-spacing: 0.1em;
+
+}
+/* from Style.css  */
+
+
+
+
+

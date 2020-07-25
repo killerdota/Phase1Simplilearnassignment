@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <title>Post your thoughts</title>
+  </head>
+  <body>
+    <header>
+      <img class="img-responsive" width="100%" height="200em" src="img/Fall.jpg" />
+    </header>
+    <form>
+      <!-- Gender -->
+      <p>You are a...</p>
+      
+      <input type="radio" id="male" name="gender" />
+      <label for="male">Male</label><br/>
+      <input type="radio" id="female" name="gender" />
+      <label for="female">Female</label>
+
+      <h3>Share your thoughts!!!</h3>
+
+      Post:<br>
+      <textarea id="myTextarea" rows="4" cols="100" >
+
+      </textarea>
+      <br \> <br \>
+    <button type="button" onclick="myFunction()">Submit</button>
+
+    <p id="demo"></p>
+
+    <script>
+    function myFunction() {
+    var x = document.getElementById("myTextarea").value;
+    document.getElementById("demo").innerHTML = x;
+    }
+</script>
+      <!-- Contact details -->
+      <fieldset>
+        <legend>Contact Info</legend>
+        <input type="email" placeholder="Email" required />
+        <span></span>
+        <input type="telephone" placeholder="Phone number" required />
+        <span ></span>
+      </fieldset>
+      <!-- Preferred -->
+      <p>How would you like to be contacted?</p>
+      <select>
+        <option>By email</option>
+        <option>By telephone</option>
+      </select>
+      <button type="button" onclick="myFunction()">Submit</button>
+    </form>
+  </body>
+</html>

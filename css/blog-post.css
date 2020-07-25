@@ -1,0 +1,132 @@
+.main-article-title{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.main-article-category,.author-name:hover,.sub-article-author:hover{
+  color:black;
+  font-weight: bold;
+}
+
+.main-article-category:hover ,.main-article-title:hover,.author-name,.sub-article-title:hover,.sub-article-category:hover,.demo-link:hover{
+  text-decoration: underline;
+}
+
+footer{
+  color: #ffffff;
+  background: #343a40;
+}
+
+.recent-articles{
+  font-size:1.7em;
+  font-weight: bold;
+}
+
+.sub-article-title{
+  font-size: 1.5em;
+  font-weight:bold;
+
+}
+
+.sub-article-category,.sub-article-date{
+  color:rgba(0,0,0,0.4);
+  font-size:0.8em;
+}
+
+.sub-article-author{
+  text-decoration: underline;
+  font-size:0.8em;
+}
+
+
+.demo-link{
+  color:blue;
+}
+
+.Sponsers{
+  font-weight: bold;
+  color: rgba(0,0,0,0.4);
+}
+.content{
+  font-size: 15px;
+  
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(0,0,0,0.4);
+}
+
+
+
+
+.pics_in_a_row {
+  display: flex;
+  width: 100%;
+  height: 120px;
+  vertical-align: middle;
+}
+
+
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, 
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+input:focus, 
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+.button {
+  /* Align buttons with the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: .5em;
+}
